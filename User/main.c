@@ -4,7 +4,11 @@
 OS_STK App_Task0Stack[APP_TASK0_STK_SIZE];
 OS_STK App_Task1Stack[APP_TASK1_STK_SIZE];
 OS_STK App_Task2Stack[APP_TASK2_STK_SIZE];
+<<<<<<< HEAD
 int ticks = 112;
+=======
+int ticks = 0;
+>>>>>>> 4b382264eca5d07b1d06aae2e1bd90672e9f2a97
 int main(void)
 {
 
