@@ -9,6 +9,7 @@ int main(void)
 {
 
 	BSP_Init();
+	printf("sfsdfsdf");
 	OSInit();
 	OSTaskCreate(App_Task0, (void *)0, (OS_STK *)&App_Task0Stack[APP_TASK0_STK_SIZE - 1], APP_TASK0_PRIO);
 	//OSTaskCreate(App_Task1,(void *)0,(OS_STK *)&App_Task1Stack[APP_TASK1_STK_SIZE-1],APP_TASK1_PRIO );
