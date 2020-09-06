@@ -40,4 +40,10 @@
 .\objects\apps.o: ..\..\uCos-II\port\os_cpu.h
 .\objects\apps.o: ..\..\BSP\DEBUG_USART\bsp_bluetooth.h
 .\objects\apps.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+<<<<<<< HEAD
+=======
+.\objects\apps.o: ..\..\BSP\IIC\bsp_i2c.h
+.\objects\apps.o: ..\..\BSP\mpu6050\mpu6050.h
+.\objects\apps.o: ..\..\BSP\hmc\hmc5883.h
+>>>>>>> dd2629fede7cb2404575abbd2be5e1ad1e7f73d2
 .\objects\apps.o: ..\..\BSP\LED\bsp_led.h

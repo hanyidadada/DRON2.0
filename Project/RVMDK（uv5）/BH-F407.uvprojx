@@ -15,6 +15,7 @@
       <uAC6>8</uAC6>
       <TargetOption>
         <TargetCommonOption>
+<<<<<<< HEAD
           <Device>STM32F407ZGTx</Device>
           <Vendor>STMicroelectronics</Vendor>
           <PackID>Keil.STM32F4xx_DFP.2.14.0</PackID>
@@ -25,6 +26,18 @@
           <FlashDriverDll>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000 -FN1 -FF0STM32F4xx_1024 -FS08000000 -FL0100000 -FP0($$Device:STM32F407ZGTx$CMSIS\Flash\STM32F4xx_1024.FLM))</FlashDriverDll>
           <DeviceId>0</DeviceId>
           <RegisterFile>$$Device:STM32F407ZGTx$Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h</RegisterFile>
+=======
+          <Device>STM32F401RETx</Device>
+          <Vendor>STMicroelectronics</Vendor>
+          <PackID>Keil.STM32F4xx_DFP.2.14.0</PackID>
+          <PackURL>http://www.keil.com/pack/</PackURL>
+          <Cpu>IROM(0x08000000,0x00080000) IRAM(0x20000000,0x00018000) CPUTYPE("Cortex-M4") FPU2 CLOCK(12000000) ELITTLE</Cpu>
+          <FlashUtilSpec></FlashUtilSpec>
+          <StartupFile></StartupFile>
+          <FlashDriverDll>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000 -FN1 -FF0STM32F4xx_512 -FS08000000 -FL080000 -FP0($$Device:STM32F401RETx$CMSIS\Flash\STM32F4xx_512.FLM))</FlashDriverDll>
+          <DeviceId>0</DeviceId>
+          <RegisterFile>$$Device:STM32F401RETx$Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h</RegisterFile>
+>>>>>>> dd2629fede7cb2404575abbd2be5e1ad1e7f73d2
           <MemoryEnv></MemoryEnv>
           <Cmp></Cmp>
           <Asm></Asm>
@@ -34,7 +47,11 @@
           <SLE66CMisc></SLE66CMisc>
           <SLE66AMisc></SLE66AMisc>
           <SLE66LinkerMisc></SLE66LinkerMisc>
+<<<<<<< HEAD
           <SFDFile>$$Device:STM32F407ZGTx$CMSIS\SVD\STM32F40x.svd</SFDFile>
+=======
+          <SFDFile>$$Device:STM32F401RETx$CMSIS\SVD\STM32F401xE.svd</SFDFile>
+>>>>>>> dd2629fede7cb2404575abbd2be5e1ad1e7f73d2
           <bCustSvd>0</bCustSvd>
           <UseEnv>0</UseEnv>
           <BinPath></BinPath>
@@ -139,7 +156,11 @@
           </Flash1>
           <bUseTDR>1</bUseTDR>
           <Flash2>BIN\UL2CM3.DLL</Flash2>
+<<<<<<< HEAD
           <Flash3></Flash3>
+=======
+          <Flash3>"" ()</Flash3>
+>>>>>>> dd2629fede7cb2404575abbd2be5e1ad1e7f73d2
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
           <pFcarmGrp></pFcarmGrp>
@@ -187,7 +208,11 @@
             <RvdsVP>2</RvdsVP>
             <RvdsMve>0</RvdsMve>
             <RvdsCdeCp>0</RvdsCdeCp>
+<<<<<<< HEAD
             <hadIRAM2>1</hadIRAM2>
+=======
+            <hadIRAM2>0</hadIRAM2>
+>>>>>>> dd2629fede7cb2404575abbd2be5e1ad1e7f73d2
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
             <useUlib>1</useUlib>
@@ -195,7 +220,11 @@
             <uLtcg>0</uLtcg>
             <nSecure>0</nSecure>
             <RoSelD>3</RoSelD>
+<<<<<<< HEAD
             <RwSelD>4</RwSelD>
+=======
+            <RwSelD>3</RwSelD>
+>>>>>>> dd2629fede7cb2404575abbd2be5e1ad1e7f73d2
             <CodeSel>0</CodeSel>
             <OptFeed>0</OptFeed>
             <NoZi1>0</NoZi1>
@@ -247,12 +276,20 @@
               <IRAM>
                 <Type>0</Type>
                 <StartAddress>0x20000000</StartAddress>
+<<<<<<< HEAD
                 <Size>0x20000</Size>
+=======
+                <Size>0x18000</Size>
+>>>>>>> dd2629fede7cb2404575abbd2be5e1ad1e7f73d2
               </IRAM>
               <IROM>
                 <Type>1</Type>
                 <StartAddress>0x8000000</StartAddress>
+<<<<<<< HEAD
                 <Size>0x100000</Size>
+=======
+                <Size>0x80000</Size>
+>>>>>>> dd2629fede7cb2404575abbd2be5e1ad1e7f73d2
               </IROM>
               <XRAM>
                 <Type>0</Type>
@@ -277,7 +314,11 @@
               <OCR_RVCT4>
                 <Type>1</Type>
                 <StartAddress>0x8000000</StartAddress>
+<<<<<<< HEAD
                 <Size>0x100000</Size>
+=======
+                <Size>0x80000</Size>
+>>>>>>> dd2629fede7cb2404575abbd2be5e1ad1e7f73d2
               </OCR_RVCT4>
               <OCR_RVCT5>
                 <Type>1</Type>
@@ -302,12 +343,21 @@
               <OCR_RVCT9>
                 <Type>0</Type>
                 <StartAddress>0x20000000</StartAddress>
+<<<<<<< HEAD
                 <Size>0x20000</Size>
               </OCR_RVCT9>
               <OCR_RVCT10>
                 <Type>0</Type>
                 <StartAddress>0x10000000</StartAddress>
                 <Size>0x10000</Size>
+=======
+                <Size>0x18000</Size>
+              </OCR_RVCT9>
+              <OCR_RVCT10>
+                <Type>0</Type>
+                <StartAddress>0x0</StartAddress>
+                <Size>0x0</Size>
+>>>>>>> dd2629fede7cb2404575abbd2be5e1ad1e7f73d2
               </OCR_RVCT10>
             </OnChipMemories>
             <RvctStartVector></RvctStartVector>
@@ -340,7 +390,11 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,STM32F40_41xxx,</Define>
               <Undefine></Undefine>
+<<<<<<< HEAD
               <IncludePath>..\..\User;..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc;..\..\Libraries\CMSIS\Include;..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include;..\..\BSP\DEBUG_USART;..\..\uCos-II\port;..\..\uCos-II\source;..\..\APP;..\..\BSP\LED</IncludePath>
+=======
+              <IncludePath>..\..\User;..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc;..\..\Libraries\CMSIS\Include;..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include;..\..\BSP\DEBUG_USART;..\..\uCos-II\port;..\..\uCos-II\source;..\..\APP;..\..\BSP\LED;..\..\BSP\IIC;..\..\BSP\hmc;..\..\BSP\mpu6050</IncludePath>
+>>>>>>> dd2629fede7cb2404575abbd2be5e1ad1e7f73d2
             </VariousControls>
           </Cads>
           <Aads>
@@ -914,6 +968,39 @@
             </File>
           </Files>
         </Group>
+<<<<<<< HEAD
+=======
+        <Group>
+          <GroupName>IIC</GroupName>
+          <Files>
+            <File>
+              <FileName>bsp_i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\BSP\IIC\bsp_i2c.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>MPU</GroupName>
+          <Files>
+            <File>
+              <FileName>mpu6050.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\BSP\mpu6050\mpu6050.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>HMC</GroupName>
+          <Files>
+            <File>
+              <FileName>hmc5883.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\BSP\hmc\hmc5883.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+>>>>>>> dd2629fede7cb2404575abbd2be5e1ad1e7f73d2
       </Groups>
     </Target>
   </Targets>

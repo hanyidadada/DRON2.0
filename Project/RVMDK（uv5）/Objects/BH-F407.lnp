@@ -59,6 +59,12 @@
 ".\objects\os_tmr.o"
 ".\objects\apps.o"
 ".\objects\bsp_led.o"
+<<<<<<< HEAD
+=======
+".\objects\bsp_i2c.o"
+".\objects\mpu6050.o"
+".\objects\hmc5883.o"
+>>>>>>> dd2629fede7cb2404575abbd2be5e1ad1e7f73d2
 --library_type=microlib --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Listings\BH-F407.map" -o .\Objects\BH-F407.axf

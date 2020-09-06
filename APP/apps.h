@@ -3,6 +3,12 @@
 
 #include "ucos_ii.h"
 #include "bsp_bluetooth.h"
+<<<<<<< HEAD
+=======
+#include "bsp_i2c.h"
+#include "mpu6050.h"
+#include "hmc5883.h"
+>>>>>>> dd2629fede7cb2404575abbd2be5e1ad1e7f73d2
 #include "bsp_led.h"
 
 

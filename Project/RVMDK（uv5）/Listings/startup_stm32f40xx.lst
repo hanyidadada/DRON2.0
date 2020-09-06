@@ -862,7 +862,11 @@ interwork --depend=.\objects\startup_stm32f40xx.d -o.\objects\startup_stm32f40x
 x.o -I.\RTE\_______-________ -ID:\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\C
 MSIS\Device\ST\STM32F4xx\Include -ID:\Keil_v5\ARM\CMSIS\Include --predefine="__
 MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 530" --predefine="STM32F40
+<<<<<<< HEAD
 7xx SETA 1" --predefine="_RTE_ SETA 1" --list=.\listings\startup_stm32f40xx.lst
+=======
+1xE SETA 1" --predefine="_RTE_ SETA 1" --list=.\listings\startup_stm32f40xx.lst
+>>>>>>> dd2629fede7cb2404575abbd2be5e1ad1e7f73d2
  ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f4
 0xx.s
 
